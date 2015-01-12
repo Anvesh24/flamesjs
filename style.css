@@ -1,0 +1,100 @@
+*{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+.result{
+
+	border: 2px solid #2ECC71;
+	text-align: center;
+	background-color: #2ECC71;
+	height: 80px;
+	width: 200px;
+	color: #F22613;
+
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    margin-top: 25px;
+    border-radius: 10px;
+   
+
+}
+
+.message{
+
+	border: 2px solid #EF4836;
+	background-color: #EF4836;
+	height: 30px;
+	width: 300px;
+	color: #FFF;
+	text-align: center;
+
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.tit{
+	font-family: 'Open Sans', sans-serif;
+/*	height: 40px;
+	background-color: #ECECEC;*/
+	color: #e74c3c;
+	margin-top: 0;
+	font-size: 40px;
+	
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.container-fluid{
+	background-color: #EEEEEE;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+.btn-lg{
+	padding: 6px 50px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+	background-color: #75ACDB;
+	border-color: #75ACDB;
+}
+
+.btn{
+	display: block;
+}
+
+input {
+
+}
+/*
+if (name1=='' || name2 == '') {
+
+		$('#alert').("please enter valid names");
+
+		document.getElementById('alert').classList.add('message');
+
+	};
+
+	else if(smallname1===smallname2){
+		return "1/1"
+	}*/
